@@ -1,0 +1,8 @@
+prefect==2.19.9
+pandas==2.2.2
+sqlalchemy==2.0.34
+psycopg[binary]==3.2.3
+fastapi==0.115.0
+uvicorn==0.30.6
+python-dotenv==1.0.1
+polars==1.9.0
