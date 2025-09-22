@@ -241,14 +241,5 @@ docker exec -it nyc_pg psql -U nyc_user -d nyc_taxi -c "TRUNCATE trips_clean, tr
 
 ---
 
-## Next Steps
-
-- Switch to **Prefect** orchestration (use Python 3.12), add schedules & retries.
-- Add **dbt** models + tests for `trips_clean`.
-- Train a small **ML model** (predict `duration_min`) and serve it with FastAPI.
-- Add **GitHub Actions** (lint/test/build), Dockerize the ETL job container.
-
----
-
 **License:** MIT
 **Author:** Viresh Nagouda — happy to accept PRs/issues ✨
