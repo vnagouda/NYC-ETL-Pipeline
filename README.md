@@ -241,14 +241,6 @@ docker exec -it nyc_pg psql -U nyc_user -d nyc_taxi -c "TRUNCATE trips_clean, tr
 
 ---
 
-## What This Shows (for your Resume)
-
-- Built a monthly **ETL** that ingests **3M+ rows**/month of NYC taxi trips, cleans & models data, and loads **raw** and **analytics** tables in **Postgres**.
-- Exposed **KPIs via FastAPI** (avg fare/mile, tip %, median duration, trips by hour); added indexes for snappy queries.
-- Solved real-world issues: parquet ingestion on Windows/Python 3.13 (no pyarrow), **Postgres parameter limit**, container networking (Adminer/Metabase vs host).
-
----
-
 ## Next Steps
 
 - Switch to **Prefect** orchestration (use Python 3.12), add schedules & retries.
